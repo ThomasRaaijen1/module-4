@@ -16,3 +16,13 @@ SELECT DISTINCT p.pid
  AND m.mid = a.mid 
  AND m.name = 'Back to the Future';
  
+--stap 3 p terug erin met shunting rule
+
+SELECT DISTINCT p.pid 
+ FROM Acts a, Movies m 
+ WHERE m.mid = a.mid 
+ AND m.name = 'Back to the Future'
+ AND EXISTS ( 
+	SELECT * FROM Person p
+	WHERE p.pid = a.pid);
+	
