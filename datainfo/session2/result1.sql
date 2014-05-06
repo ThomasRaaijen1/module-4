@@ -1,0 +1,10 @@
+INSERT INTO Problem1 VALUES ('A', false, "omdat meerdere voertuigen dezelfde capaciteit hebben zoals C.");
+INSERT INTO Problem1 VALUES ('B', true,  "want van elke voertuig weet je wat de capaciteit is.");
+INSERT INTO Problem1 VALUES ('C', true,  "waar, een pakket kan hooguit een factuur hebben c).");
+INSERT INTO Problem1 VALUES ('D', true,  "waar, want een ontvanger kan meerdere pakketten hebben en verschillende afleveradressen b)");
+INSERT INTO Problem1 VALUES ('E', false, "omdat elk pakje een factuur moet hebben 8. En elk pakje een ontvanger heeft 6.");
+INSERT INTO Problem1 VALUES ('F', false,  "omdat een voertuig niet aan een bezorger toegewezen wordt.");
+INSERT INTO Problem1 VALUES ('G', false,  "omdat elke voertuig een capaciteit heeft V ? VC en de voertuig wordt voor een bepaalde B gerechtigd.");
+INSERT INTO Problem1 VALUES ('H', true,  "omdat een voertuig toegeschreven aan meerdere bezorgers.");
+INSERT INTO Problem1 VALUES ('I', true, "B) is een FD dus moet deze ook waar zijn.");
+INSERT INTO Problem1 VALUES ('J', true,  "de bezorger en de capaciteiten zijn onafhankelijk van elkaar voor de voertuig.");
