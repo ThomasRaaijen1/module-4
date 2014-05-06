@@ -26,3 +26,9 @@ SELECT DISTINCT p.pid
 	SELECT * FROM Person p
 	WHERE p.pid = a.pid);
 	
+--stap 4 FK rule
+
+SELECT DISTINCT p.pid 
+ FROM Acts a, Movies m 
+ WHERE m.mid = a.mid 
+ AND m.name = 'Back to the Future';
